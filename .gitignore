@@ -1,0 +1,74 @@
+# R environment
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Local project files
+*.Rproj
+.Renviron
+.Rprofile
+
+# Public and processed datasets
+/datasets/
+/data/raw/
+/data/processed/
+
+# Simulation outputs
+/sim1/
+/sim2/
+/sim3_restored/
+/poisson/
+/poisson_sim2/
+/poisson_sim3/
+
+# Real-data benchmark outputs
+/FPR/
+/CAT/
+/FPR_SCLC/
+/CAT_SCLC/
+
+# Figures and generated reports
+/figures/
+/plots/
+/results/
+*.pdf
+*.png
+*.svg
+*.tif
+*.tiff
+*.jpg
+*.jpeg
+*.html
+*.docx
+
+# Generated R objects
+*.rds
+*.rda
+*.rdata
+
+# Logs, checkpoints, and temporary files
+*.log
+*.out
+*.err
+*.tmp
+*.tmp.*
+*.temp
+*~
+
+# Package environments
+/renv/library/
+/renv/staging/
+/packrat/
+
+# Knitr and R Markdown caches
+*_cache/
+/cache/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
